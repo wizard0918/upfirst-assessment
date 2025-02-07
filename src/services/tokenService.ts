@@ -25,7 +25,3 @@ export const generateRefreshToken = async (): Promise<string> => {
   
     return refreshToken;
   };
-
-export const isValidAuthorizationCode = (code: string): boolean => {
-    return code === 'SOME_CODE';
-};
